@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+    position: relative;
+}
+
+h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 2%;
+    padding-top: 0.5%;
+}
+
+h2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p,
+a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.playbox_container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1.5%;
+    padding: 2% 2%;
+}
+h1:hover {
+    text-decoration: underline;
+}
